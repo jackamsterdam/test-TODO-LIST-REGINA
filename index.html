@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Regina TODO LIST TEST!!</title>
+</head>
+
+<body>
+
+    <div class="counter">
+        <div class="task-counter"><span id="taskContainerCount">0</span> Tasks to do</div>
+        <div class="task-done-counter"><span id="doneContainerCount">0</span> Tasks completed</div>
+    </div>
+
+    <div class="user-input-task">
+        <label for="toDoListEntry">To DO:</label>
+        <input type="text" name="toDoListEntry" id="toDoListEntry" class="toDoListEntry">
+        <button type="button" id="btnEnterValInList" class="btnEnterValInList" onclick="enterValInList()">ADD</button>
+    </div>
+
+
+    <h2>TODO TASKS</h2>
+    <div class="toDo"></div>
+    <h2>DONE TASKS</h2>
+    <div class="done"></div>
+
+    <!-- font awesome doesnt work: need to add some link. -->
+    <!--
+     <i class="fa-duotone fa-pen-to-square"></i>
+    <i class="fa-solid fa-circle-trash"></i>
+    <i class="fa-solid fa-box-archive"></i>
+    <i class="fa-solid fa-square-this-way-up"></i>
+ -->
+
+    <!--     
+    <h2>TODO TASKS</h2>
+    <div class="toDo">
+
+
+        <div class="todo-entry">
+            <span>Learn Angular</span>
+            <button type="button" class="archive" onclick="archive()">Archive</button>
+            <button type="button" class="editTask" onclick="editTask()">Edit Task</button>
+            <button type="button" class="deleteTask" onclick="deleteTask()">Delete Task</button>
+        </div>
+
+
+
+        <div class="todo-entry">
+            <span>Kiss Regina</span>
+            <button type="button" class="archive" onclick="archive()">Archive</button>
+            <button type="button" class="editTask" onclick="editTask()">Edit Task</button>
+            <button type="button" class="deleteTask" onclick="deleteTask()">Delete Task</button>
+        </div>
+        <div class="todo-entry">
+            <span>Wash the dishes</span>
+            <button type="button" class="archive" onclick="archive()">Archive</button>
+            <button type="button" class="editTask" onclick="editTask()">Edit Task</button>
+            <button type="button" class="deleteTask" onclick="deleteTask()">Delete Task</button>
+        </div>
+
+    </div>
+
+    <h2>DONE TASKS</h2>
+    <div class="done">
+        <div class="task-entry-done">
+            <span>Learn Angular</span>
+            <button type="button" class="unArchive" onclick="unArchive()">Unarchive</button>
+            <button type="button" class="deleteTask" onclick="deleteTask()">Delete Task</button>
+        </div>
+        <div class="task-entry-done">
+            <span>Kiss Regina</span>
+            <button type="button" class="unArchive" onclick="unArchive()">Unarchive</button>
+            <button type="button" class="deleteTask" onclick="deleteTask()">Delete Task</button>
+        </div>
+        <div class="task-entry-done">
+            <span>Wash the dishes</span>
+            <button type="button" class="unArchive" onclick="umArchive()">Unarchive</button>
+            <button type="button" class="deleteTask" onclick="deleteTask()">Delete Task</button>
+        </div>
+    </div>
+ -->
+
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

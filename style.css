@@ -1,0 +1,57 @@
+button {
+    cursor: pointer;
+    transform: scale(0.98);
+    /* float: right; */
+}
+
+span {
+    display: inline-block;
+    min-width: 500px;
+    word-wrap: break-word;
+}
+
+.todo-entry {
+    border: 1px solid black;
+    background-color: lightsalmon;
+}
+
+.task-entry-done {
+    border: 1px solid black;
+    background-color: lightblue;
+}
+
+.user-input-task {
+    border: 1px solid black;
+    background-color: lightgreen;
+}
+
+.task-done-counter {
+    border: 1px solid black;
+    background-color: lightblue;
+}
+
+.task-counter {
+    border: 1px solid black;
+    background-color: lightsalmon;
+}
+
+.counter {
+    border: 1px solid black;
+    background-color: lightyellow;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.strikeThrough {
+    text-decoration: line-through;
+}
+
+
+/* for iphones:  */
+
+input {
+    font-size: 16px;
+}
